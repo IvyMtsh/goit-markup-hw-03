@@ -44,7 +44,7 @@ body {
 
 .container-navigation {
   display: flex;
-  padding: 24px 0;
+  padding: 15px 0;
 }
 
 .navigation {
@@ -239,7 +239,7 @@ body {
 }
 
 .item {
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 .page-footer {
