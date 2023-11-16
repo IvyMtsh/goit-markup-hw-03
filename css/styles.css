@@ -1,3 +1,4 @@
+/*--------style--------*/
 img {
   display: block;
   max-width: 100%;
@@ -139,7 +140,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   padding-bottom: 48px;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
   display: block;
 }
@@ -204,8 +205,7 @@ body {
 .main-page-text-container {
   display: flex;
   flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
+  gap: 24px;
 }
 
 .main-page-text-container-tem {
@@ -228,7 +228,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .main-page-text-container-portfolio {
