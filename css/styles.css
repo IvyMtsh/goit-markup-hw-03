@@ -198,7 +198,6 @@ body {
 .main-page-text-container {
   display: flex;
   flex-wrap: wrap;
-  padding: 0p;
   gap: 24px;
 }
 
