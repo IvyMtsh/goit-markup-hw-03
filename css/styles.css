@@ -1,7 +1,7 @@
-/*--------style--------*/
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 h1,
@@ -227,7 +227,6 @@ body {
   list-style-type: none;
   display: flex;
   flex-wrap: wrap;
-  padding: 0;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -238,7 +237,7 @@ body {
   border-top: none;
 }
 
-.item {
+.main-page-item {
   width: calc((100% - 48px) / 3);
 }
 
